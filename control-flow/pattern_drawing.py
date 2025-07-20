@@ -4,5 +4,5 @@ column = 0;
 while column < size:
     for row in range(size):
         print(f"*", end="")
-    print(f"")
+    print(f"\n")
     column += 1
