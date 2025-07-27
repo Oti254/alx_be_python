@@ -14,7 +14,7 @@ def main():
         print("Invalid temperature. Please enter a numeric value.")
         return
 
-    unit = input("Is the temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
+    unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
 
     if unit not in ['C', 'F']:
         print("Invalid unit. Please enter C or F.")
